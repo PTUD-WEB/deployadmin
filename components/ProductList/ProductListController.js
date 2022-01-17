@@ -1,4 +1,4 @@
-const productListService = require('./productListService')
+const productListService = require('./ProductListService')
 const {models} = require('../../models');
 const category = require('../../models/category');
 const e = require('express');
