@@ -3,5 +3,5 @@ var router = express.Router();
 const ProductController = require('./productListController')
 router.use(express.static('public'));
 router.get('/', ProductController.productList)
-//ProductList - phan trang danh sach nguoi dung
+//ProductList - quan ly he thong gian hang
 module.exports = router;
