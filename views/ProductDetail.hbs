@@ -1,0 +1,43 @@
+
+<div id="page-wrapper">
+        <div class="container-fluid">
+            <div class="col-12">
+                <div class="row">
+                    <div class="col-lg-12">
+                        <div class="col-lg-12">
+                            <h1 class="page-header">{{book.name}}</h1>
+                        </div>
+                    </div>
+
+                    <div class="row product-list product-detail">
+
+                        <div class="col-12 col-lg-6 product-detail-slider">
+                            <div class="wrapper">
+                                <div class="Gallery swiper-container img-magnifier-container" id="gallery">
+                                    <div class="swiper-slide"> <a href="book-shop/img/book-1.jpg" data-fancybox="2" title="Zoom In"><img class="myimage" src="book-shop/img/book-1.jpg" alt="thumnails"></a></div>     
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-12 col-lg-6 text-center text-lg-left">
+                            <div class="product-single-price">
+                                <h4><span class="real-price">Giá:{{book.price}}</span></h4>
+                            </div>
+                            <div class="dropdown-divider"></div>
+                            <div class="product-tags-list">
+                                <nav aria-label="breadcrumb">
+                                    <ol class="breadcrumb">
+                                        <li class="breadcrumb-item"><p class="d-inline">SKU: <span>00012</span></p></li>
+                                        <li class="breadcrumb-item"><span class="d-inline">Categories: <a href="javascript:void(0)">{{book.categoryid}}</a>
+                                    </ol>
+                                </nav>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!--END LATEST ARRIVALS-->
+
+</div>

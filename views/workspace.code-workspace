@@ -1,0 +1,16 @@
+{
+	"folders": [
+		{
+			"path": ".."
+		},
+		{
+			"path": "..\\..\\client-main"
+		},
+		{
+			"path": "..\\..\\PACKETTRACER\\startmin-master"
+		}
+	],
+	"settings": {
+		"liveServer.settings.multiRootWorkspaceName": "startmin-master"
+	}
+}
